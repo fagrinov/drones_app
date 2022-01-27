@@ -1,18 +1,23 @@
 package com.example.demo.ui.model.response;
 
-import java.util.Date;
+import java.util.HashSet;
+import java.util.Set;
+
+import com.example.demo.io.entity.MedicationEntity;
 
 public class DroneRest {
 
 private String serial;
 	
-	private String model;
+	private int model;
 	
 	private double weight;
 	
 	private int battary;
 	
-	private String state;
+	private int state;
+	
+	private Set<MedicationEntity> medications = new HashSet<>();
 
 	public String getSerial() {
 		return serial;
@@ -22,11 +27,12 @@ private String serial;
 		this.serial = serial;
 	}
 
-	public String getModel() {
+	
+	public int getModel() {
 		return model;
 	}
 
-	public void setModel(String model) {
+	public void setModel(int model) {
 		this.model = model;
 	}
 
@@ -46,17 +52,19 @@ private String serial;
 		this.battary = battary;
 	}
 
-	public String getState() {
+	public int getState() {
 		return state;
 	}
 
-	public void setState(String state) {
+	public void setState(int state) {
 		this.state = state;
 	}
-	
-	
-	
-	
-	
-	
+
+	public Set<MedicationEntity> getMedications() {
+		return medications;
+	}
+
+	public void setMedications(Set<MedicationEntity> medications) {
+		this.medications = medications;
+	}
 }

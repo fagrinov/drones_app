@@ -8,13 +8,13 @@ public class DroneDto implements Serializable{
 
 	private String serial;
 	
-	private String model;
+	private int model;
 	
 	private double weight;
 	
 	private int battary;
 	
-	private String state;
+	private int state;
 
 	public String getSerial() {
 		return serial;
@@ -24,11 +24,13 @@ public class DroneDto implements Serializable{
 		this.serial = serial;
 	}
 
-	public String getModel() {
+	
+
+	public int getModel() {
 		return model;
 	}
 
-	public void setModel(String model) {
+	public void setModel(int model) {
 		this.model = model;
 	}
 
@@ -48,13 +50,14 @@ public class DroneDto implements Serializable{
 		this.battary = battary;
 	}
 
-	public String getState() {
+	public int getState() {
 		return state;
 	}
 
-	public void setState(String state) {
+	public void setState(int state) {
 		this.state = state;
 	}
+
 	
 	
 	

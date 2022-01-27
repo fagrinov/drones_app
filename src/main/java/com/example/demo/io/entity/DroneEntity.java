@@ -19,20 +19,20 @@ public class DroneEntity implements Serializable {
 	@GeneratedValue
 	private long id;
 	
-	@Column(nullable = false, length = 100)
+	@Column(nullable = false, length = 100, unique = true)
 	private String serial;
 	
-	@Column(nullable = false , length = 100)
-	private String model;
+	@Column(nullable = false , length = 2)
+	private int model;
 	
 	@Column(nullable = false )
 	private double weight;
 	
-	@Column(nullable = false )
+	@Column(nullable = false , length = 3)
 	private int battary;
 	
-	@Column(nullable = false)
-	private String state;
+	@Column(nullable = false , length = 2)
+	private int state;
 
 	@OneToMany(mappedBy = "droneEntity")
     private Set<MedicationEntity> medications = new HashSet<>();
@@ -53,11 +53,13 @@ public class DroneEntity implements Serializable {
 		this.serial = serial;
 	}
 
-	public String getModel() {
+	
+
+	public int getModel() {
 		return model;
 	}
 
-	public void setModel(String model) {
+	public void setModel(int model) {
 		this.model = model;
 	}
 
@@ -77,11 +79,12 @@ public class DroneEntity implements Serializable {
 		this.battary = battary;
 	}
 
-	public String getState() {
+	
+	public int getState() {
 		return state;
 	}
 
-	public void setState(String state) {
+	public void setState(int state) {
 		this.state = state;
 	}
 

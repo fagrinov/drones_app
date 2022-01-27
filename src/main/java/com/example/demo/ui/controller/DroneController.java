@@ -1,8 +1,15 @@
 package com.example.demo.ui.controller;
 
+import java.util.ArrayList;
+import java.util.List;
+
+import org.modelmapper.ModelMapper;
+import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -10,6 +17,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.example.demo.service.DroneService;
+import com.example.demo.shared.dto.DroneDto;
 import com.example.demo.ui.model.request.DroneDetailsRequestModel;
 import com.example.demo.ui.model.response.DroneRest;
 
@@ -19,23 +27,60 @@ public class DroneController {
 	
 	@Autowired
 	DroneService droneService;
+	
+	//checking available drones for loading
 	@GetMapping
-	public String getDrone() {
-		return "get drone detail";
+	public List<DroneRest> getIdleDrones() {
+		List<DroneDto> droneDto = droneService.getIdleDrones();
+		return convertToResponse(droneDto);
 	}
 	
+	//check drone battery level for a given drone
+	@GetMapping(path = "/{serial}", produces = { MediaType.APPLICATION_JSON_VALUE })
+	public DroneRest getDrone(@PathVariable String serial) {
+		DroneRest droneRest = new DroneRest();
+		DroneDto returnedDroneDto = droneService.getDrone(serial);
+		BeanUtils.copyProperties(returnedDroneDto, droneRest);
+		return droneRest;
+	}
+	
+	//registering a drone
 	@PostMapping
 	public DroneRest createDrone(@RequestBody DroneDetailsRequestModel droneDetail) {
-		return null;
+		DroneDto droneDto = new DroneDto();
+		BeanUtils.copyProperties(droneDetail, droneDto);
+		DroneDto createdDrone = droneService.createDrone(droneDto);
+		DroneRest returnValue = new DroneRest();
+		BeanUtils.copyProperties(createdDrone, returnValue);
+		return returnValue;
 	}
 	
-	@PutMapping
-	public DroneRest updateDrone() {
-		return null;
+	// updating drone state or battery capacity
+	@PutMapping(path = "/{serial}", consumes = { MediaType.APPLICATION_JSON_VALUE }, produces = {
+			MediaType.APPLICATION_JSON_VALUE })
+	public DroneRest updateDrone(@PathVariable String serial,@RequestBody DroneDetailsRequestModel droneDetail) {
+		DroneRest returnValue = new DroneRest();
+		DroneDto droneDto = new DroneDto();
+		droneDto = new ModelMapper().map(droneDetail, DroneDto.class);
+		DroneDto updatedDrone = droneService.updateDrone(serial,droneDto);
+		BeanUtils.copyProperties(updatedDrone, returnValue);
+		return returnValue;
+	
 	}
 	
 	@DeleteMapping
 	public String deleteDrone() {
 		return "delete patient";
+	}
+	
+	private List<DroneRest> convertToResponse(List<DroneDto> droneDtos){
+		List<DroneRest> returnedDrones = new ArrayList<DroneRest>();
+		for(int i = 0; i< droneDtos.size(); i++) {
+			DroneRest droneRest = new DroneRest ();
+			BeanUtils.copyProperties(droneDtos.get(0), droneRest);
+			returnedDrones.add(droneRest);
+			
+		}
+		return returnedDrones;
 	}
 }
