@@ -2,6 +2,7 @@ package com.example.demo.ui.controller;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Collectors;
 
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.BeanUtils;
@@ -16,10 +17,15 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import com.example.demo.MedicationRepository;
 import com.example.demo.service.DroneService;
+import com.example.demo.service.MedicationService;
 import com.example.demo.shared.dto.DroneDto;
+import com.example.demo.shared.dto.MedicationDto;
 import com.example.demo.ui.model.request.DroneDetailsRequestModel;
+import com.example.demo.ui.model.request.MedicationDetailsRequestModel;
 import com.example.demo.ui.model.response.DroneRest;
+import com.example.demo.ui.model.response.MedicationRest;
 
 @RestController
 @RequestMapping("drones") //http://localhost.com:8080/drones
@@ -27,6 +33,9 @@ public class DroneController {
 	
 	@Autowired
 	DroneService droneService;
+	
+	@Autowired
+	MedicationService medService;
 	
 	//checking available drones for loading
 	@GetMapping
@@ -42,6 +51,14 @@ public class DroneController {
 		DroneDto returnedDroneDto = droneService.getDrone(serial);
 		BeanUtils.copyProperties(returnedDroneDto, droneRest);
 		return droneRest;
+	}
+	
+	@GetMapping(path = "/{serial}/{medications}", produces = { MediaType.APPLICATION_JSON_VALUE })
+	public List<MedicationRest> getMedications(@PathVariable String serial, @PathVariable String medications) {
+		List<MedicationDto> medicationDtos = medService.getMedicationItems(serial);
+		DroneDto droneDto = new DroneDto();
+		droneDto.setMedications(medicationDtos);
+		return new ModelMapper().map(droneDto, DroneRest.class).getMedications();
 	}
 	
 	//registering a drone
@@ -64,6 +81,25 @@ public class DroneController {
 		droneDto = new ModelMapper().map(droneDetail, DroneDto.class);
 		DroneDto updatedDrone = droneService.updateDrone(serial,droneDto);
 		BeanUtils.copyProperties(updatedDrone, returnValue);
+		return returnValue;
+	
+	}
+	
+	//loading a drone with medication items;
+	@PutMapping(path = "/{serial}/{load}", consumes = { MediaType.APPLICATION_JSON_VALUE }, produces = {
+			MediaType.APPLICATION_JSON_VALUE })
+	public DroneRest loadDeleiverMedicationItems(@PathVariable String serial,@PathVariable String load,@RequestBody List<MedicationDetailsRequestModel> medications) {
+		DroneRest returnValue = new DroneRest();
+		DroneDto droneDto = new DroneDto();
+		if(load.equals("1")) {
+		List<String> medicationCodes  = medications.stream()
+			    .map(MedicationDetailsRequestModel::getCode)
+			    .collect(Collectors.toList());
+			droneDto = droneService.loadMedicationItems(serial, medicationCodes);
+		} else {
+			droneDto = droneService.deleveringMedicationItems(serial);
+		}
+		returnValue = new ModelMapper().map(droneDto, DroneRest.class);
 		return returnValue;
 	
 	}

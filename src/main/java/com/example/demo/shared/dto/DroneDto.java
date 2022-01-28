@@ -1,6 +1,7 @@
 package com.example.demo.shared.dto;
 
 import java.io.Serializable;
+import java.util.List;
 
 public class DroneDto implements Serializable{
 
@@ -15,7 +16,9 @@ public class DroneDto implements Serializable{
 	private int battary;
 	
 	private int state;
-
+	
+	private List<MedicationDto> medications ;
+	
 	public String getSerial() {
 		return serial;
 	}
@@ -58,7 +61,12 @@ public class DroneDto implements Serializable{
 		this.state = state;
 	}
 
-	
-	
-	
+	public List<MedicationDto> getMedications() {
+		return medications;
+	}
+
+	public void setMedications(List<MedicationDto> medications) {
+		this.medications = medications;
+	}
+
 }

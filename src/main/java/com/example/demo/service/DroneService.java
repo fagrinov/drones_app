@@ -11,4 +11,6 @@ public interface DroneService {
 	DroneDto updateDrone(String serial,DroneDto droneDto);
 	List<DroneDto> getIdleDrones();
 	DroneDto getDrone(String serial);
+	DroneDto loadMedicationItems(String serial,List<String> medicationCodes);
+	DroneDto deleveringMedicationItems(String serial);
 }

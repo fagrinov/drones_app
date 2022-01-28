@@ -1,9 +1,10 @@
 package com.example.demo.io.entity;
 
 import java.io.Serializable;
-import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -34,8 +35,8 @@ public class DroneEntity implements Serializable {
 	@Column(nullable = false , length = 2)
 	private int state;
 
-	@OneToMany(mappedBy = "droneEntity")
-    private Set<MedicationEntity> medications = new HashSet<>();
+	@OneToMany(mappedBy = "droneEntity", cascade=CascadeType.ALL)
+    private List<MedicationEntity> medications;
 	
 	public long getId() {
 		return id;
@@ -88,15 +89,12 @@ public class DroneEntity implements Serializable {
 		this.state = state;
 	}
 
-	public Set<MedicationEntity> getMedications() {
+	public List<MedicationEntity> getMedications() {
 		return medications;
 	}
 
-	public void setMedications(Set<MedicationEntity> medications) {
+	public void setMedications(List<MedicationEntity> medications) {
 		this.medications = medications;
 	}
-	
-	
-	
 	
 }

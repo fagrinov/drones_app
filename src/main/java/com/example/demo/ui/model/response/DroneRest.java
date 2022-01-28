@@ -1,9 +1,6 @@
 package com.example.demo.ui.model.response;
 
-import java.util.HashSet;
-import java.util.Set;
-
-import com.example.demo.io.entity.MedicationEntity;
+import java.util.List;
 
 public class DroneRest {
 
@@ -17,7 +14,7 @@ private String serial;
 	
 	private int state;
 	
-	private Set<MedicationEntity> medications = new HashSet<>();
+	private List<MedicationRest> medications ;
 
 	public String getSerial() {
 		return serial;
@@ -60,11 +57,11 @@ private String serial;
 		this.state = state;
 	}
 
-	public Set<MedicationEntity> getMedications() {
+	public List<MedicationRest> getMedications() {
 		return medications;
 	}
 
-	public void setMedications(Set<MedicationEntity> medications) {
+	public void setMedications(List<MedicationRest> medications) {
 		this.medications = medications;
 	}
 }

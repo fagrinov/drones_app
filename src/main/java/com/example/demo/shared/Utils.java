@@ -2,6 +2,8 @@ package com.example.demo.shared;
 
 import java.security.SecureRandom;
 import java.util.Random;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import org.springframework.stereotype.Service;
 
@@ -10,16 +12,25 @@ public class Utils {
 
     private final Random RANDOM = new SecureRandom();
     private final String ALPHABET = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
+    private final String CODE_ALPHABET = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ_";
 	
     public String generateSerialNumber(int length) {
-        return generateRandomString(length);
+        return generateRandomString(length,ALPHABET);
     }
     
-    public String generateAddressId(int length) {
-        return generateRandomString(length);
+    public String generateCode(int length) {
+        return generateRandomString(length,CODE_ALPHABET);
     }
     
-    private String generateRandomString(int length) {
+    public boolean validateMedicationName(String name) {
+    	Pattern p = Pattern.compile("^[A-Za-z0-9_-]*$", Pattern.CASE_INSENSITIVE);
+    	Matcher m = p.matcher(name);
+    	boolean valid = m.find();
+    	return valid;
+    	
+    }
+    
+    private String generateRandomString(int length,String alphabet) {
         StringBuilder returnValue = new StringBuilder(length);
 
         for (int i = 0; i < length; i++) {
@@ -28,7 +39,7 @@ public class Utils {
 
         return new String(returnValue);
     }
-
+    
 //	public static boolean hasTokenExpired(String token) {
 //		boolean returnValue = false;
 //

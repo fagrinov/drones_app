@@ -1,5 +1,7 @@
 package com.example.demo.ui.model.request;
 
+import java.util.List;
+
 public class DroneDetailsRequestModel {
 	
 	private String serial;
@@ -11,6 +13,8 @@ public class DroneDetailsRequestModel {
 	private int battary;
 	
 	private int state;
+	
+	private List<MedicationDetailsRequestModel> medications ;
 
 	public String getSerial() {
 		return serial;
@@ -52,7 +56,12 @@ public class DroneDetailsRequestModel {
 		this.state = state;
 	}
 
-	
+	public List<MedicationDetailsRequestModel> getMedications() {
+		return medications;
+	}
 
+	public void setMedications(List<MedicationDetailsRequestModel> medications) {
+		this.medications = medications;
+	}
 	
 }
