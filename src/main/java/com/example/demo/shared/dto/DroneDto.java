@@ -1,6 +1,7 @@
 package com.example.demo.shared.dto;
 
 import java.io.Serializable;
+import java.util.Date;
 import java.util.List;
 
 public class DroneDto implements Serializable{
@@ -13,9 +14,11 @@ public class DroneDto implements Serializable{
 	
 	private double weight;
 	
-	private int battary;
+	private int battery;
 	
 	private int state;
+	
+	private Date auditDate;
 	
 	private List<MedicationDto> medications ;
 	
@@ -45,12 +48,12 @@ public class DroneDto implements Serializable{
 		this.weight = weight;
 	}
 
-	public int getBattary() {
-		return battary;
+	public int getBattery() {
+		return battery;
 	}
 
-	public void setBattary(int battary) {
-		this.battary = battary;
+	public void setBattery(int battery) {
+		this.battery = battery;
 	}
 
 	public int getState() {
@@ -67,6 +70,14 @@ public class DroneDto implements Serializable{
 
 	public void setMedications(List<MedicationDto> medications) {
 		this.medications = medications;
+	}
+
+	public Date getAuditDate() {
+		return auditDate;
+	}
+
+	public void setAuditDate(Date auditDate) {
+		this.auditDate = auditDate;
 	}
 
 }

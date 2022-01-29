@@ -1,5 +1,6 @@
 package com.example.demo.ui.model.request;
 
+import java.util.Date;
 import java.util.List;
 
 public class DroneDetailsRequestModel {
@@ -10,9 +11,11 @@ public class DroneDetailsRequestModel {
 	
 	private double weight;
 	
-	private int battary;
+	private int battery;
 	
 	private int state;
+	
+	private Date auditDate;
 	
 	private List<MedicationDetailsRequestModel> medications ;
 
@@ -40,12 +43,12 @@ public class DroneDetailsRequestModel {
 		this.weight = weight;
 	}
 
-	public int getBattary() {
-		return battary;
+	public int getBattery() {
+		return battery;
 	}
 
-	public void setBattary(int battary) {
-		this.battary = battary;
+	public void setBattery(int battery) {
+		this.battery = battery;
 	}
 
 	public int getState() {
@@ -63,5 +66,15 @@ public class DroneDetailsRequestModel {
 	public void setMedications(List<MedicationDetailsRequestModel> medications) {
 		this.medications = medications;
 	}
+
+	public Date getAuditDate() {
+		return auditDate;
+	}
+
+	public void setAuditDate(Date auditDate) {
+		this.auditDate = auditDate;
+	}
+	
+	
 	
 }

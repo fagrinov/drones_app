@@ -1,8 +1,8 @@
 package com.example.demo.io.entity;
 
 import java.io.Serializable;
+import java.util.Date;
 import java.util.List;
-import java.util.Set;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
@@ -11,6 +11,11 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
 
+import org.hibernate.envers.Audited;
+import org.hibernate.envers.NotAudited;
+
+
+@Audited
 @Entity
 public class DroneEntity implements Serializable {
 
@@ -23,20 +28,28 @@ public class DroneEntity implements Serializable {
 	@Column(nullable = false, length = 100, unique = true)
 	private String serial;
 	
+	@NotAudited
 	@Column(nullable = false , length = 2)
 	private int model;
 	
+	@NotAudited
 	@Column(nullable = false )
 	private double weight;
 	
 	@Column(nullable = false , length = 3)
-	private int battary;
+	private int battery;
 	
+	@NotAudited
 	@Column(nullable = false , length = 2)
 	private int state;
 
+	@NotAudited
 	@OneToMany(mappedBy = "droneEntity", cascade=CascadeType.ALL)
     private List<MedicationEntity> medications;
+	
+	@Column(nullable = false)
+	private Date auditDate;
+
 	
 	public long getId() {
 		return id;
@@ -71,16 +84,15 @@ public class DroneEntity implements Serializable {
 	public void setWeight(double weight) {
 		this.weight = weight;
 	}
-
-	public int getBattary() {
-		return battary;
-	}
-
-	public void setBattary(int battary) {
-		this.battary = battary;
-	}
-
 	
+	public int getBattery() {
+		return battery;
+	}
+
+	public void setBattery(int battery) {
+		this.battery = battery;
+	}
+
 	public int getState() {
 		return state;
 	}
@@ -95,6 +107,14 @@ public class DroneEntity implements Serializable {
 
 	public void setMedications(List<MedicationEntity> medications) {
 		this.medications = medications;
+	}
+	
+	public Date getAuditDate() {
+		return auditDate;
+	}
+
+	public void setAuditDate(Date auditDate) {
+		this.auditDate = auditDate;
 	}
 	
 }

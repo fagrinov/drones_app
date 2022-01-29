@@ -112,7 +112,7 @@ public class DroneController {
 	@Scheduled( fixedRate = 1, timeUnit = TimeUnit.MINUTES)
 	public void run() {
 		droneService.getAllDrones().forEach(drone -> 
-		logger.info("Drone "+ drone.getSerial()+" ,Battery Level "+ drone.getBattary()
+		logger.info("Drone "+ drone.getSerial()+" ,Battery Level "+ drone.getBattery()
 		+" at "+ Calendar.getInstance().getTime()));
 	}
 	@DeleteMapping

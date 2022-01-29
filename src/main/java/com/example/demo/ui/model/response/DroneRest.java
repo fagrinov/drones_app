@@ -1,5 +1,6 @@
 package com.example.demo.ui.model.response;
 
+import java.util.Date;
 import java.util.List;
 
 public class DroneRest {
@@ -10,9 +11,11 @@ private String serial;
 	
 	private double weight;
 	
-	private int battary;
+	private int battery;
 	
 	private int state;
+	
+	private Date auditDate;
 	
 	private List<MedicationRest> medications ;
 
@@ -41,12 +44,12 @@ private String serial;
 		this.weight = weight;
 	}
 
-	public int getBattary() {
-		return battary;
+	public int getBattery() {
+		return battery;
 	}
 
-	public void setBattary(int battary) {
-		this.battary = battary;
+	public void setBattery(int battery) {
+		this.battery = battery;
 	}
 
 	public int getState() {
@@ -63,5 +66,13 @@ private String serial;
 
 	public void setMedications(List<MedicationRest> medications) {
 		this.medications = medications;
+	}
+
+	public Date getAuditDate() {
+		return auditDate;
+	}
+
+	public void setAuditDate(Date auditDate) {
+		this.auditDate = auditDate;
 	}
 }
