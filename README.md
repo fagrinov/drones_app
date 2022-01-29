@@ -7,12 +7,17 @@
 - checking available drones for loading -> GET http://localhost:8080/drones
 - check drone battery level -> GET http://localhost:8080/drones/{serial}
 - updating drone state or battery capacity PUT http://localhost:8080/drones/{serial} then put a json with one or more of these attributes (state,battery)
-- there is a schedual task run every min to check all drones battery level
+- there is a schedual task run every min to check all drones battery level and it is logged in log.txt
 - there is auditing for battery level chages using Spring Data Envers
 
-project is runnable i make it using SpringToolSuite4
+- project is runnable i make it using SpringToolSuite4
 
-DB used is mysql  jdbc:mysql://localhost:3306/drones -- the schema and db will created automatically while running app
+- DB used is mysql  jdbc:mysql://localhost:3306/drones -- the schema and db will created automatically while running app
+
+- for inserting data please follow the Rest API defined above 
+- you will find a folder "images" consists of two images for medications image upload
+
+
 
 
 
