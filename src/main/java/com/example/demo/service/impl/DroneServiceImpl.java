@@ -69,6 +69,10 @@ public class DroneServiceImpl implements DroneService{
 		return convertToDtos(droneRepository.findByState(DroneStateEnum.IDLE));
 	}
 
+	@Override
+	public List<DroneDto> getAllDrones() {
+		return convertToDtos((List<DroneEntity>)droneRepository.findAll());
+	}
 	//check drone battery level for a given drone
 	@Override
 	public DroneDto getDrone(String serial) {
