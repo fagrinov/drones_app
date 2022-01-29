@@ -10,6 +10,8 @@ private String name;
 	
 	private String imagePath;
 
+	private byte[] image;
+	
 	public String getName() {
 		return name;
 	}
@@ -41,7 +43,13 @@ private String name;
 	public void setImagePath(String imagePath) {
 		this.imagePath = imagePath;
 	}
-	
-	
+
+	public byte[] getImage() {
+		return image;
+	}
+
+	public void setImage(byte[] image) {
+		this.image = image;
+	}
 	
 }

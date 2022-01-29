@@ -14,6 +14,8 @@ public class MedicationDto implements Serializable {
 	private String code;
 	
 	private String imagePath;
+	
+	private byte[] image;
 
 	public String getName() {
 		return name;
@@ -46,7 +48,13 @@ public class MedicationDto implements Serializable {
 	public void setImagePath(String imagePath) {
 		this.imagePath = imagePath;
 	}
-	
-	
+
+	public byte[] getImage() {
+		return image;
+	}
+
+	public void setImage(byte[] image) {
+		this.image = image;
+	}
 	
 }

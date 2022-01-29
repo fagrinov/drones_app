@@ -7,6 +7,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
+import javax.persistence.Lob;
 import javax.persistence.ManyToOne;
 
 @Entity
@@ -17,23 +18,27 @@ public class MedicationEntity implements Serializable {
 	@Id
 	@GeneratedValue
 	private long id;
-	
+
 	@Column(nullable = false)
 	private String name;
-	
-	@Column(nullable = false )
+
+	@Column(nullable = false)
 	private double weight;
-	
+
 	@Column(nullable = false)
 	private String code;
-	
+
 	@Column(nullable = true)
 	private String imagePath;
 
+	@Lob
+	@Column(nullable = true)
+	private byte[] image;
+
 	@ManyToOne
-    @JoinColumn(name = "droneId")
-    private DroneEntity droneEntity;
-	
+	@JoinColumn(name = "droneId")
+	private DroneEntity droneEntity;
+
 	public long getId() {
 		return id;
 	}
@@ -81,9 +86,13 @@ public class MedicationEntity implements Serializable {
 	public void setDroneEntity(DroneEntity droneEntity) {
 		this.droneEntity = droneEntity;
 	}
-	
-	
-	
-	
-	
+
+	public byte[] getImage() {
+		return image;
+	}
+
+	public void setImage(byte[] image) {
+		this.image = image;
+	}
+
 }

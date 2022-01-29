@@ -322,3 +322,233 @@ com.fasterxml.jackson.databind.RuntimeJsonMappingException: there is not a drone
 2022-01-29 13:30:49.555  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone nFJbouE5ejyWcy00WnCx ,Battery Level 100 at Sat Jan 29 13:30:49 EET 2022
 2022-01-29 13:30:49.555  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ktjkJuI9h6bPcAOf2oh4 ,Battery Level 80 at Sat Jan 29 13:30:49 EET 2022
 2022-01-29 13:30:49.556  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ypf5pwl1HRn7RqkAgG21 ,Battery Level 30 at Sat Jan 29 13:30:49 EET 2022
+2022-01-29 13:31:49.556  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone nFJbouE5ejyWcy00WnCx ,Battery Level 100 at Sat Jan 29 13:31:49 EET 2022
+2022-01-29 13:31:49.557  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ktjkJuI9h6bPcAOf2oh4 ,Battery Level 80 at Sat Jan 29 13:31:49 EET 2022
+2022-01-29 13:31:49.557  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ypf5pwl1HRn7RqkAgG21 ,Battery Level 30 at Sat Jan 29 13:31:49 EET 2022
+2022-01-29 13:32:49.553  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone nFJbouE5ejyWcy00WnCx ,Battery Level 100 at Sat Jan 29 13:32:49 EET 2022
+2022-01-29 13:32:49.554  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ktjkJuI9h6bPcAOf2oh4 ,Battery Level 80 at Sat Jan 29 13:32:49 EET 2022
+2022-01-29 13:32:49.554  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ypf5pwl1HRn7RqkAgG21 ,Battery Level 30 at Sat Jan 29 13:32:49 EET 2022
+2022-01-29 13:33:49.561  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone nFJbouE5ejyWcy00WnCx ,Battery Level 100 at Sat Jan 29 13:33:49 EET 2022
+2022-01-29 13:33:49.562  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ktjkJuI9h6bPcAOf2oh4 ,Battery Level 80 at Sat Jan 29 13:33:49 EET 2022
+2022-01-29 13:33:49.562  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ypf5pwl1HRn7RqkAgG21 ,Battery Level 30 at Sat Jan 29 13:33:49 EET 2022
+2022-01-29 13:34:49.562  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone nFJbouE5ejyWcy00WnCx ,Battery Level 100 at Sat Jan 29 13:34:49 EET 2022
+2022-01-29 13:34:49.563  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ktjkJuI9h6bPcAOf2oh4 ,Battery Level 80 at Sat Jan 29 13:34:49 EET 2022
+2022-01-29 13:34:49.563  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ypf5pwl1HRn7RqkAgG21 ,Battery Level 30 at Sat Jan 29 13:34:49 EET 2022
+2022-01-29 13:35:49.564  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone nFJbouE5ejyWcy00WnCx ,Battery Level 100 at Sat Jan 29 13:35:49 EET 2022
+2022-01-29 13:35:49.565  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ktjkJuI9h6bPcAOf2oh4 ,Battery Level 80 at Sat Jan 29 13:35:49 EET 2022
+2022-01-29 13:35:49.565  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ypf5pwl1HRn7RqkAgG21 ,Battery Level 30 at Sat Jan 29 13:35:49 EET 2022
+2022-01-29 13:36:49.566  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone nFJbouE5ejyWcy00WnCx ,Battery Level 100 at Sat Jan 29 13:36:49 EET 2022
+2022-01-29 13:36:49.567  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ktjkJuI9h6bPcAOf2oh4 ,Battery Level 80 at Sat Jan 29 13:36:49 EET 2022
+2022-01-29 13:36:49.567  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ypf5pwl1HRn7RqkAgG21 ,Battery Level 30 at Sat Jan 29 13:36:49 EET 2022
+2022-01-29 13:37:49.569  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone nFJbouE5ejyWcy00WnCx ,Battery Level 100 at Sat Jan 29 13:37:49 EET 2022
+2022-01-29 13:37:49.570  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ktjkJuI9h6bPcAOf2oh4 ,Battery Level 80 at Sat Jan 29 13:37:49 EET 2022
+2022-01-29 13:37:49.570  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ypf5pwl1HRn7RqkAgG21 ,Battery Level 30 at Sat Jan 29 13:37:49 EET 2022
+2022-01-29 13:38:49.565  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone nFJbouE5ejyWcy00WnCx ,Battery Level 100 at Sat Jan 29 13:38:49 EET 2022
+2022-01-29 13:38:49.565  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ktjkJuI9h6bPcAOf2oh4 ,Battery Level 80 at Sat Jan 29 13:38:49 EET 2022
+2022-01-29 13:38:49.565  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ypf5pwl1HRn7RqkAgG21 ,Battery Level 30 at Sat Jan 29 13:38:49 EET 2022
+2022-01-29 13:39:49.575  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone nFJbouE5ejyWcy00WnCx ,Battery Level 100 at Sat Jan 29 13:39:49 EET 2022
+2022-01-29 13:39:49.575  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ktjkJuI9h6bPcAOf2oh4 ,Battery Level 80 at Sat Jan 29 13:39:49 EET 2022
+2022-01-29 13:39:49.576  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ypf5pwl1HRn7RqkAgG21 ,Battery Level 30 at Sat Jan 29 13:39:49 EET 2022
+2022-01-29 13:40:49.574  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone nFJbouE5ejyWcy00WnCx ,Battery Level 100 at Sat Jan 29 13:40:49 EET 2022
+2022-01-29 13:40:49.575  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ktjkJuI9h6bPcAOf2oh4 ,Battery Level 80 at Sat Jan 29 13:40:49 EET 2022
+2022-01-29 13:40:49.575  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ypf5pwl1HRn7RqkAgG21 ,Battery Level 30 at Sat Jan 29 13:40:49 EET 2022
+2022-01-29 13:41:49.575  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone nFJbouE5ejyWcy00WnCx ,Battery Level 100 at Sat Jan 29 13:41:49 EET 2022
+2022-01-29 13:41:49.576  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ktjkJuI9h6bPcAOf2oh4 ,Battery Level 80 at Sat Jan 29 13:41:49 EET 2022
+2022-01-29 13:41:49.576  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ypf5pwl1HRn7RqkAgG21 ,Battery Level 30 at Sat Jan 29 13:41:49 EET 2022
+2022-01-29 13:42:49.578  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone nFJbouE5ejyWcy00WnCx ,Battery Level 100 at Sat Jan 29 13:42:49 EET 2022
+2022-01-29 13:42:49.579  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ktjkJuI9h6bPcAOf2oh4 ,Battery Level 80 at Sat Jan 29 13:42:49 EET 2022
+2022-01-29 13:42:49.579  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ypf5pwl1HRn7RqkAgG21 ,Battery Level 30 at Sat Jan 29 13:42:49 EET 2022
+2022-01-29 13:43:49.575  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone nFJbouE5ejyWcy00WnCx ,Battery Level 100 at Sat Jan 29 13:43:49 EET 2022
+2022-01-29 13:43:49.576  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ktjkJuI9h6bPcAOf2oh4 ,Battery Level 80 at Sat Jan 29 13:43:49 EET 2022
+2022-01-29 13:43:49.576  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ypf5pwl1HRn7RqkAgG21 ,Battery Level 30 at Sat Jan 29 13:43:49 EET 2022
+2022-01-29 13:44:49.582  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone nFJbouE5ejyWcy00WnCx ,Battery Level 100 at Sat Jan 29 13:44:49 EET 2022
+2022-01-29 13:44:49.583  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ktjkJuI9h6bPcAOf2oh4 ,Battery Level 80 at Sat Jan 29 13:44:49 EET 2022
+2022-01-29 13:44:49.583  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ypf5pwl1HRn7RqkAgG21 ,Battery Level 30 at Sat Jan 29 13:44:49 EET 2022
+2022-01-29 13:45:49.584  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone nFJbouE5ejyWcy00WnCx ,Battery Level 100 at Sat Jan 29 13:45:49 EET 2022
+2022-01-29 13:45:49.585  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ktjkJuI9h6bPcAOf2oh4 ,Battery Level 80 at Sat Jan 29 13:45:49 EET 2022
+2022-01-29 13:45:49.586  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ypf5pwl1HRn7RqkAgG21 ,Battery Level 30 at Sat Jan 29 13:45:49 EET 2022
+2022-01-29 13:46:49.586  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone nFJbouE5ejyWcy00WnCx ,Battery Level 100 at Sat Jan 29 13:46:49 EET 2022
+2022-01-29 13:46:49.586  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ktjkJuI9h6bPcAOf2oh4 ,Battery Level 80 at Sat Jan 29 13:46:49 EET 2022
+2022-01-29 13:46:49.586  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ypf5pwl1HRn7RqkAgG21 ,Battery Level 30 at Sat Jan 29 13:46:49 EET 2022
+2022-01-29 13:47:49.587  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone nFJbouE5ejyWcy00WnCx ,Battery Level 100 at Sat Jan 29 13:47:49 EET 2022
+2022-01-29 13:47:49.587  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ktjkJuI9h6bPcAOf2oh4 ,Battery Level 80 at Sat Jan 29 13:47:49 EET 2022
+2022-01-29 13:47:49.587  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ypf5pwl1HRn7RqkAgG21 ,Battery Level 30 at Sat Jan 29 13:47:49 EET 2022
+2022-01-29 13:48:49.589  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone nFJbouE5ejyWcy00WnCx ,Battery Level 100 at Sat Jan 29 13:48:49 EET 2022
+2022-01-29 13:48:49.590  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ktjkJuI9h6bPcAOf2oh4 ,Battery Level 80 at Sat Jan 29 13:48:49 EET 2022
+2022-01-29 13:48:49.590  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ypf5pwl1HRn7RqkAgG21 ,Battery Level 30 at Sat Jan 29 13:48:49 EET 2022
+2022-01-29 13:49:49.591  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone nFJbouE5ejyWcy00WnCx ,Battery Level 100 at Sat Jan 29 13:49:49 EET 2022
+2022-01-29 13:49:49.591  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ktjkJuI9h6bPcAOf2oh4 ,Battery Level 80 at Sat Jan 29 13:49:49 EET 2022
+2022-01-29 13:49:49.592  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ypf5pwl1HRn7RqkAgG21 ,Battery Level 30 at Sat Jan 29 13:49:49 EET 2022
+2022-01-29 13:50:49.593  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone nFJbouE5ejyWcy00WnCx ,Battery Level 100 at Sat Jan 29 13:50:49 EET 2022
+2022-01-29 13:50:49.594  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ktjkJuI9h6bPcAOf2oh4 ,Battery Level 80 at Sat Jan 29 13:50:49 EET 2022
+2022-01-29 13:50:49.594  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ypf5pwl1HRn7RqkAgG21 ,Battery Level 30 at Sat Jan 29 13:50:49 EET 2022
+2022-01-29 13:51:49.595  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone nFJbouE5ejyWcy00WnCx ,Battery Level 100 at Sat Jan 29 13:51:49 EET 2022
+2022-01-29 13:51:49.595  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ktjkJuI9h6bPcAOf2oh4 ,Battery Level 80 at Sat Jan 29 13:51:49 EET 2022
+2022-01-29 13:51:49.596  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ypf5pwl1HRn7RqkAgG21 ,Battery Level 30 at Sat Jan 29 13:51:49 EET 2022
+2022-01-29 13:52:49.621  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone nFJbouE5ejyWcy00WnCx ,Battery Level 100 at Sat Jan 29 13:52:49 EET 2022
+2022-01-29 13:52:49.621  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ktjkJuI9h6bPcAOf2oh4 ,Battery Level 80 at Sat Jan 29 13:52:49 EET 2022
+2022-01-29 13:52:49.622  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ypf5pwl1HRn7RqkAgG21 ,Battery Level 30 at Sat Jan 29 13:52:49 EET 2022
+2022-01-29 13:53:49.596  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone nFJbouE5ejyWcy00WnCx ,Battery Level 100 at Sat Jan 29 13:53:49 EET 2022
+2022-01-29 13:53:49.596  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ktjkJuI9h6bPcAOf2oh4 ,Battery Level 80 at Sat Jan 29 13:53:49 EET 2022
+2022-01-29 13:53:49.596  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ypf5pwl1HRn7RqkAgG21 ,Battery Level 30 at Sat Jan 29 13:53:49 EET 2022
+2022-01-29 13:54:49.628  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone nFJbouE5ejyWcy00WnCx ,Battery Level 100 at Sat Jan 29 13:54:49 EET 2022
+2022-01-29 13:54:49.629  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ktjkJuI9h6bPcAOf2oh4 ,Battery Level 80 at Sat Jan 29 13:54:49 EET 2022
+2022-01-29 13:54:49.629  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ypf5pwl1HRn7RqkAgG21 ,Battery Level 30 at Sat Jan 29 13:54:49 EET 2022
+2022-01-29 13:55:49.602  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone nFJbouE5ejyWcy00WnCx ,Battery Level 100 at Sat Jan 29 13:55:49 EET 2022
+2022-01-29 13:55:49.603  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ktjkJuI9h6bPcAOf2oh4 ,Battery Level 80 at Sat Jan 29 13:55:49 EET 2022
+2022-01-29 13:55:49.603  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ypf5pwl1HRn7RqkAgG21 ,Battery Level 30 at Sat Jan 29 13:55:49 EET 2022
+2022-01-29 13:56:49.606  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone nFJbouE5ejyWcy00WnCx ,Battery Level 100 at Sat Jan 29 13:56:49 EET 2022
+2022-01-29 13:56:49.607  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ktjkJuI9h6bPcAOf2oh4 ,Battery Level 80 at Sat Jan 29 13:56:49 EET 2022
+2022-01-29 13:56:49.607  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ypf5pwl1HRn7RqkAgG21 ,Battery Level 30 at Sat Jan 29 13:56:49 EET 2022
+2022-01-29 13:57:32.023  INFO 8872 --- [RMI TCP Connection(40)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-01-29 13:57:35.057  INFO 8872 --- [RMI TCP Connection(40)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-01-29 13:57:35.448  INFO 8872 --- [RMI TCP Connection(40)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-01-29 13:57:35.912  INFO 8872 --- [RMI TCP Connection(40)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-01-29 14:14:54.549  INFO 13072 --- [main] c.example.demo.MobileAppAwsApplication   : Starting MobileAppAwsApplication using Java 17.0.1 on Raghda-PC with PID 13072 (D:\MusalaSoftTest\drones_app\target\classes started by Raghda in D:\MusalaSoftTest\drones_app)
+2022-01-29 14:14:54.578  INFO 13072 --- [main] c.example.demo.MobileAppAwsApplication   : No active profile set, falling back to default profiles: default
+2022-01-29 14:14:57.058  INFO 13072 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-01-29 14:14:57.243  INFO 13072 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 121 ms. Found 2 JPA repository interfaces.
+2022-01-29 14:15:00.244  INFO 13072 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-01-29 14:15:00.290  INFO 13072 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-01-29 14:15:00.291  INFO 13072 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-29 14:15:00.541  INFO 13072 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-01-29 14:15:00.541  INFO 13072 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5441 ms
+2022-01-29 14:15:01.599  INFO 13072 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-01-29 14:15:02.056  INFO 13072 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.3.Final
+2022-01-29 14:15:02.687  INFO 13072 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-01-29 14:15:03.118  INFO 13072 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-01-29 14:15:04.357  INFO 13072 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-01-29 14:15:04.720  INFO 13072 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2022-01-29 14:15:05.090  INFO 13072 --- [main] o.h.e.boot.internal.EnversServiceImpl    : Envers integration enabled? : true
+2022-01-29 14:15:13.651  INFO 13072 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-01-29 14:15:13.777  INFO 13072 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-01-29 14:15:15.726  WARN 13072 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-01-29 14:15:17.567  INFO 13072 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-01-29 14:15:17.615  INFO 13072 --- [main] c.example.demo.MobileAppAwsApplication   : Started MobileAppAwsApplication in 25.173 seconds (JVM running for 29.366)
+2022-01-29 14:15:18.476  INFO 13072 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone nFJbouE5ejyWcy00WnCx ,Battery Level 100 at Sat Jan 29 14:15:18 EET 2022
+2022-01-29 14:15:18.477  INFO 13072 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ktjkJuI9h6bPcAOf2oh4 ,Battery Level 80 at Sat Jan 29 14:15:18 EET 2022
+2022-01-29 14:15:18.477  INFO 13072 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ypf5pwl1HRn7RqkAgG21 ,Battery Level 30 at Sat Jan 29 14:15:18 EET 2022
+2022-01-29 14:16:17.603  INFO 13072 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone nFJbouE5ejyWcy00WnCx ,Battery Level 100 at Sat Jan 29 14:16:17 EET 2022
+2022-01-29 14:16:17.604  INFO 13072 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ktjkJuI9h6bPcAOf2oh4 ,Battery Level 80 at Sat Jan 29 14:16:17 EET 2022
+2022-01-29 14:16:17.604  INFO 13072 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ypf5pwl1HRn7RqkAgG21 ,Battery Level 30 at Sat Jan 29 14:16:17 EET 2022
+2022-01-29 14:16:17.707  INFO 13072 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-29 14:16:17.707  INFO 13072 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-01-29 14:16:17.709  INFO 13072 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2022-01-29 14:17:17.601  INFO 13072 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone nFJbouE5ejyWcy00WnCx ,Battery Level 100 at Sat Jan 29 14:17:17 EET 2022
+2022-01-29 14:17:17.601  INFO 13072 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ktjkJuI9h6bPcAOf2oh4 ,Battery Level 80 at Sat Jan 29 14:17:17 EET 2022
+2022-01-29 14:17:17.601  INFO 13072 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ypf5pwl1HRn7RqkAgG21 ,Battery Level 30 at Sat Jan 29 14:17:17 EET 2022
+2022-01-29 14:17:38.718  INFO 13072 --- [RMI TCP Connection(12)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-01-29 14:17:43.828  INFO 13072 --- [RMI TCP Connection(13)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-01-29 14:17:45.894  INFO 13072 --- [RMI TCP Connection(12)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-01-29 14:17:45.899  INFO 13072 --- [RMI TCP Connection(12)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-01-29 14:17:45.919  INFO 13072 --- [RMI TCP Connection(12)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-01-29 14:21:25.616  INFO 3400 --- [main] c.example.demo.MobileAppAwsApplication   : Starting MobileAppAwsApplication using Java 17.0.1 on Raghda-PC with PID 3400 (D:\MusalaSoftTest\drones_app\target\classes started by Raghda in D:\MusalaSoftTest\drones_app)
+2022-01-29 14:21:25.620  INFO 3400 --- [main] c.example.demo.MobileAppAwsApplication   : No active profile set, falling back to default profiles: default
+2022-01-29 14:21:26.168  INFO 3400 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-01-29 14:21:26.232  INFO 3400 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 53 ms. Found 2 JPA repository interfaces.
+2022-01-29 14:21:27.017  INFO 3400 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-01-29 14:21:27.029  INFO 3400 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-01-29 14:21:27.030  INFO 3400 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-29 14:21:27.164  INFO 3400 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-01-29 14:21:27.165  INFO 3400 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1469 ms
+2022-01-29 14:21:27.377  INFO 3400 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-01-29 14:21:27.444  INFO 3400 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.3.Final
+2022-01-29 14:21:27.653  INFO 3400 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-01-29 14:21:27.788  INFO 3400 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-01-29 14:21:28.019  INFO 3400 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-01-29 14:21:28.060  INFO 3400 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2022-01-29 14:21:28.104  INFO 3400 --- [main] o.h.e.boot.internal.EnversServiceImpl    : Envers integration enabled? : true
+2022-01-29 14:21:34.837  INFO 3400 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-01-29 14:21:34.847  INFO 3400 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-01-29 14:21:35.375  WARN 3400 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-01-29 14:21:35.824  INFO 3400 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-01-29 14:21:35.837  INFO 3400 --- [main] c.example.demo.MobileAppAwsApplication   : Started MobileAppAwsApplication in 10.74 seconds (JVM running for 11.795)
+2022-01-29 14:21:36.014  INFO 3400 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone nFJbouE5ejyWcy00WnCx ,Battery Level 100 at Sat Jan 29 14:21:36 EET 2022
+2022-01-29 14:21:36.015  INFO 3400 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ktjkJuI9h6bPcAOf2oh4 ,Battery Level 80 at Sat Jan 29 14:21:36 EET 2022
+2022-01-29 14:21:36.015  INFO 3400 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ypf5pwl1HRn7RqkAgG21 ,Battery Level 30 at Sat Jan 29 14:21:36 EET 2022
+2022-01-29 14:22:29.862  INFO 3400 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-29 14:22:29.862  INFO 3400 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-01-29 14:22:29.863  INFO 3400 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-01-29 14:22:35.847  INFO 3400 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone nFJbouE5ejyWcy00WnCx ,Battery Level 100 at Sat Jan 29 14:22:35 EET 2022
+2022-01-29 14:22:35.848  INFO 3400 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ktjkJuI9h6bPcAOf2oh4 ,Battery Level 80 at Sat Jan 29 14:22:35 EET 2022
+2022-01-29 14:22:35.848  INFO 3400 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ypf5pwl1HRn7RqkAgG21 ,Battery Level 30 at Sat Jan 29 14:22:35 EET 2022
+2022-01-29 14:23:35.843  INFO 3400 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone nFJbouE5ejyWcy00WnCx ,Battery Level 100 at Sat Jan 29 14:23:35 EET 2022
+2022-01-29 14:23:35.844  INFO 3400 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ktjkJuI9h6bPcAOf2oh4 ,Battery Level 80 at Sat Jan 29 14:23:35 EET 2022
+2022-01-29 14:23:35.844  INFO 3400 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ypf5pwl1HRn7RqkAgG21 ,Battery Level 30 at Sat Jan 29 14:23:35 EET 2022
+2022-01-29 14:24:35.850  INFO 3400 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone nFJbouE5ejyWcy00WnCx ,Battery Level 100 at Sat Jan 29 14:24:35 EET 2022
+2022-01-29 14:24:35.851  INFO 3400 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ktjkJuI9h6bPcAOf2oh4 ,Battery Level 80 at Sat Jan 29 14:24:35 EET 2022
+2022-01-29 14:24:35.851  INFO 3400 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ypf5pwl1HRn7RqkAgG21 ,Battery Level 30 at Sat Jan 29 14:24:35 EET 2022
+2022-01-29 14:25:35.854  INFO 3400 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone nFJbouE5ejyWcy00WnCx ,Battery Level 100 at Sat Jan 29 14:25:35 EET 2022
+2022-01-29 14:25:35.855  INFO 3400 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ktjkJuI9h6bPcAOf2oh4 ,Battery Level 80 at Sat Jan 29 14:25:35 EET 2022
+2022-01-29 14:25:35.855  INFO 3400 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ypf5pwl1HRn7RqkAgG21 ,Battery Level 30 at Sat Jan 29 14:25:35 EET 2022
+2022-01-29 14:26:35.861  INFO 3400 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone nFJbouE5ejyWcy00WnCx ,Battery Level 100 at Sat Jan 29 14:26:35 EET 2022
+2022-01-29 14:26:35.862  INFO 3400 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ktjkJuI9h6bPcAOf2oh4 ,Battery Level 80 at Sat Jan 29 14:26:35 EET 2022
+2022-01-29 14:26:35.863  INFO 3400 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ypf5pwl1HRn7RqkAgG21 ,Battery Level 30 at Sat Jan 29 14:26:35 EET 2022
+2022-01-29 14:27:35.856  INFO 3400 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone nFJbouE5ejyWcy00WnCx ,Battery Level 100 at Sat Jan 29 14:27:35 EET 2022
+2022-01-29 14:27:35.857  INFO 3400 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ktjkJuI9h6bPcAOf2oh4 ,Battery Level 80 at Sat Jan 29 14:27:35 EET 2022
+2022-01-29 14:27:35.857  INFO 3400 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ypf5pwl1HRn7RqkAgG21 ,Battery Level 30 at Sat Jan 29 14:27:35 EET 2022
+2022-01-29 14:28:35.857  INFO 3400 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone nFJbouE5ejyWcy00WnCx ,Battery Level 100 at Sat Jan 29 14:28:35 EET 2022
+2022-01-29 14:28:35.858  INFO 3400 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ktjkJuI9h6bPcAOf2oh4 ,Battery Level 80 at Sat Jan 29 14:28:35 EET 2022
+2022-01-29 14:28:35.859  INFO 3400 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ypf5pwl1HRn7RqkAgG21 ,Battery Level 30 at Sat Jan 29 14:28:35 EET 2022
+2022-01-29 14:29:34.665 ERROR 3400 --- [http-nio-8080-exec-6] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.RuntimeException: there is not a drone with this serial] with root cause
+
+java.lang.RuntimeException: there is not a drone with this serial
+	at com.example.demo.service.impl.DroneServiceImpl.loadMedicationItems(DroneServiceImpl.java:102) ~[classes/:na]
+	at com.example.demo.ui.controller.DroneController.loadDeleiverMedicationItems(DroneController.java:102) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.14.jar:5.3.14]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.14.jar:5.3.14]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.14.jar:5.3.14]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.14.jar:5.3.14]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.14.jar:5.3.14]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.14.jar:5.3.14]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067) ~[spring-webmvc-5.3.14.jar:5.3.14]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.14.jar:5.3.14]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.14.jar:5.3.14]
+	at org.springframework.web.servlet.FrameworkServlet.doPut(FrameworkServlet.java:920) ~[spring-webmvc-5.3.14.jar:5.3.14]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:684) ~[tomcat-embed-core-9.0.56.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.14.jar:5.3.14]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.56.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.14.jar:5.3.14]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.14.jar:5.3.14]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.14.jar:5.3.14]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.14.jar:5.3.14]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.14.jar:5.3.14]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.14.jar:5.3.14]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1732) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2022-01-29 14:29:35.863  INFO 3400 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone nFJbouE5ejyWcy00WnCx ,Battery Level 100 at Sat Jan 29 14:29:35 EET 2022
+2022-01-29 14:29:35.864  INFO 3400 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ktjkJuI9h6bPcAOf2oh4 ,Battery Level 80 at Sat Jan 29 14:29:35 EET 2022
+2022-01-29 14:29:35.865  INFO 3400 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ypf5pwl1HRn7RqkAgG21 ,Battery Level 30 at Sat Jan 29 14:29:35 EET 2022
+2022-01-29 14:30:35.862  INFO 3400 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone nFJbouE5ejyWcy00WnCx ,Battery Level 100 at Sat Jan 29 14:30:35 EET 2022
+2022-01-29 14:30:35.863  INFO 3400 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ktjkJuI9h6bPcAOf2oh4 ,Battery Level 80 at Sat Jan 29 14:30:35 EET 2022
+2022-01-29 14:30:35.863  INFO 3400 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ypf5pwl1HRn7RqkAgG21 ,Battery Level 30 at Sat Jan 29 14:30:35 EET 2022
