@@ -1,58 +1,324 @@
-2022-01-29 10:45:36.368  INFO 10612 --- [main] c.example.demo.MobileAppAwsApplication   : Starting MobileAppAwsApplication using Java 17.0.1 on Raghda-PC with PID 10612 (D:\MusalaSoftTest\drones_app\target\classes started by Raghda in D:\MusalaSoftTest\drones_app)
-2022-01-29 10:45:36.371  INFO 10612 --- [main] c.example.demo.MobileAppAwsApplication   : No active profile set, falling back to default profiles: default
-2022-01-29 10:45:36.993  INFO 10612 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2022-01-29 10:45:37.047  INFO 10612 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 44 ms. Found 2 JPA repository interfaces.
-2022-01-29 10:45:37.572  INFO 10612 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2022-01-29 10:45:37.582  INFO 10612 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-01-29 10:45:37.582  INFO 10612 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
-2022-01-29 10:45:37.703  INFO 10612 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2022-01-29 10:45:37.703  INFO 10612 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1276 ms
-2022-01-29 10:45:37.904  INFO 10612 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2022-01-29 10:45:37.956  INFO 10612 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.3.Final
-2022-01-29 10:45:38.124  INFO 10612 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2022-01-29 10:45:38.226  INFO 10612 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2022-01-29 10:45:38.409  INFO 10612 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2022-01-29 10:45:38.440  INFO 10612 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
-2022-01-29 10:45:39.171  INFO 10612 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2022-01-29 10:45:39.180  INFO 10612 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2022-01-29 10:45:39.554  WARN 10612 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2022-01-29 10:45:39.960  INFO 10612 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2022-01-29 10:45:39.971  INFO 10612 --- [main] c.example.demo.MobileAppAwsApplication   : Started MobileAppAwsApplication in 4.023 seconds (JVM running for 4.784)
-2022-01-29 10:46:09.940  INFO 10612 --- [RMI TCP Connection(8)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2022-01-29 10:46:09.961  INFO 10612 --- [RMI TCP Connection(8)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2022-01-29 10:46:09.962  INFO 10612 --- [RMI TCP Connection(8)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2022-01-29 10:46:09.976  INFO 10612 --- [RMI TCP Connection(8)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2022-01-29 10:46:37.385  INFO 10892 --- [main] c.example.demo.MobileAppAwsApplication   : Starting MobileAppAwsApplication using Java 17.0.1 on Raghda-PC with PID 10892 (D:\MusalaSoftTest\drones_app\target\classes started by Raghda in D:\MusalaSoftTest\drones_app)
-2022-01-29 10:46:37.388  INFO 10892 --- [main] c.example.demo.MobileAppAwsApplication   : No active profile set, falling back to default profiles: default
-2022-01-29 10:46:38.007  INFO 10892 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2022-01-29 10:46:38.061  INFO 10892 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 44 ms. Found 2 JPA repository interfaces.
-2022-01-29 10:46:38.586  INFO 10892 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2022-01-29 10:46:38.596  INFO 10892 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-01-29 10:46:38.596  INFO 10892 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
-2022-01-29 10:46:38.717  INFO 10892 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2022-01-29 10:46:38.717  INFO 10892 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1273 ms
-2022-01-29 10:46:38.906  INFO 10892 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2022-01-29 10:46:38.960  INFO 10892 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.3.Final
-2022-01-29 10:46:39.136  INFO 10892 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2022-01-29 10:46:39.238  INFO 10892 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2022-01-29 10:46:39.406  INFO 10892 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2022-01-29 10:46:39.435  INFO 10892 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
-2022-01-29 10:46:40.119  INFO 10892 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2022-01-29 10:46:40.128  INFO 10892 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2022-01-29 10:46:40.500  WARN 10892 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2022-01-29 10:46:40.893  INFO 10892 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
-2022-01-29 10:46:40.904  INFO 10892 --- [main] c.example.demo.MobileAppAwsApplication   : Started MobileAppAwsApplication in 3.929 seconds (JVM running for 4.68)
-2022-01-29 10:46:41.058  INFO 10892 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone Rus1GZ4kUVpXOlmKIM8p59W1E8gWqHxoJqh1Nw6cNop1JMIbQSMkG0YiJPb0eoYHWXw2lVxuPwlnyeFtDFqN7TvpgG789XDzziYY ,Battery Level 0 at Sat Jan 29 10:46:41 EET 2022
-2022-01-29 10:46:41.059  INFO 10892 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone 2SuZMxDaLZ5Q1AWlqIUju3S3Df7bfF221IyWdIDEjNpTqAuqUDx5JgZNUtmLXPateiQWP7aj3sMfllgnkeE0ZgSE7XHHBxPOmQzz ,Battery Level 0 at Sat Jan 29 10:46:41 EET 2022
-2022-01-29 10:46:41.059  INFO 10892 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone dfMGzc43evhZdZrGjSWs ,Battery Level 0 at Sat Jan 29 10:46:41 EET 2022
-2022-01-29 10:46:41.059  INFO 10892 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone 1AmV76b31EK6GUMNq1Pv ,Battery Level 0 at Sat Jan 29 10:46:41 EET 2022
-2022-01-29 10:46:41.059  INFO 10892 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone M8mEspRv948OHOpOOIfG ,Battery Level 100 at Sat Jan 29 10:46:41 EET 2022
-2022-01-29 10:47:40.917  INFO 10892 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone Rus1GZ4kUVpXOlmKIM8p59W1E8gWqHxoJqh1Nw6cNop1JMIbQSMkG0YiJPb0eoYHWXw2lVxuPwlnyeFtDFqN7TvpgG789XDzziYY ,Battery Level 0 at Sat Jan 29 10:47:40 EET 2022
-2022-01-29 10:47:40.918  INFO 10892 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone 2SuZMxDaLZ5Q1AWlqIUju3S3Df7bfF221IyWdIDEjNpTqAuqUDx5JgZNUtmLXPateiQWP7aj3sMfllgnkeE0ZgSE7XHHBxPOmQzz ,Battery Level 0 at Sat Jan 29 10:47:40 EET 2022
-2022-01-29 10:47:40.919  INFO 10892 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone dfMGzc43evhZdZrGjSWs ,Battery Level 0 at Sat Jan 29 10:47:40 EET 2022
-2022-01-29 10:47:40.919  INFO 10892 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone 1AmV76b31EK6GUMNq1Pv ,Battery Level 0 at Sat Jan 29 10:47:40 EET 2022
-2022-01-29 10:47:40.919  INFO 10892 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone M8mEspRv948OHOpOOIfG ,Battery Level 100 at Sat Jan 29 10:47:40 EET 2022
-2022-01-29 10:47:45.042  INFO 10892 --- [RMI TCP Connection(8)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2022-01-29 10:47:45.071  INFO 10892 --- [RMI TCP Connection(8)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2022-01-29 10:47:45.073  INFO 10892 --- [RMI TCP Connection(8)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2022-01-29 10:47:45.082  INFO 10892 --- [RMI TCP Connection(8)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-01-29 13:02:39.244  INFO 9976 --- [RMI TCP Connection(27)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-01-29 13:02:39.267  INFO 9976 --- [RMI TCP Connection(27)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-01-29 13:02:39.268  INFO 9976 --- [RMI TCP Connection(27)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-01-29 13:02:39.278  INFO 9976 --- [RMI TCP Connection(27)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-01-29 13:07:47.736  INFO 8120 --- [main] c.example.demo.MobileAppAwsApplication   : Starting MobileAppAwsApplication using Java 17.0.1 on Raghda-PC with PID 8120 (D:\MusalaSoftTest\drones_app\target\classes started by Raghda in D:\MusalaSoftTest\drones_app)
+2022-01-29 13:07:47.739  INFO 8120 --- [main] c.example.demo.MobileAppAwsApplication   : No active profile set, falling back to default profiles: default
+2022-01-29 13:07:48.215  INFO 8120 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-01-29 13:07:48.269  INFO 8120 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 45 ms. Found 2 JPA repository interfaces.
+2022-01-29 13:07:48.934  INFO 8120 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-01-29 13:07:48.943  INFO 8120 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-01-29 13:07:48.944  INFO 8120 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-29 13:07:49.199  INFO 8120 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-01-29 13:07:49.200  INFO 8120 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1398 ms
+2022-01-29 13:07:49.393  INFO 8120 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-01-29 13:07:49.455  INFO 8120 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.3.Final
+2022-01-29 13:07:49.629  INFO 8120 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-01-29 13:07:49.737  INFO 8120 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-01-29 13:07:49.907  INFO 8120 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-01-29 13:07:49.943  INFO 8120 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2022-01-29 13:07:49.986  INFO 8120 --- [main] o.h.e.boot.internal.EnversServiceImpl    : Envers integration enabled? : true
+2022-01-29 13:07:51.279  INFO 8120 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-01-29 13:07:51.287  INFO 8120 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-01-29 13:07:51.678  WARN 8120 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-01-29 13:07:52.073  INFO 8120 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-01-29 13:07:52.084  INFO 8120 --- [main] c.example.demo.MobileAppAwsApplication   : Started MobileAppAwsApplication in 4.783 seconds (JVM running for 5.523)
+2022-01-29 13:07:52.235  INFO 8120 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone nFJbouE5ejyWcy00WnCx ,Battery Level 100 at Sat Jan 29 13:07:52 EET 2022
+2022-01-29 13:07:52.236  INFO 8120 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ktjkJuI9h6bPcAOf2oh4 ,Battery Level 80 at Sat Jan 29 13:07:52 EET 2022
+2022-01-29 13:07:52.236  INFO 8120 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ypf5pwl1HRn7RqkAgG21 ,Battery Level 30 at Sat Jan 29 13:07:52 EET 2022
+2022-01-29 13:07:58.737  INFO 8120 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-29 13:07:58.737  INFO 8120 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-01-29 13:07:58.739  INFO 8120 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-01-29 13:07:58.795 ERROR 8120 --- [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.RuntimeException: there is not a drone with this serial] with root cause
+
+java.lang.RuntimeException: there is not a drone with this serial
+	at com.example.demo.service.impl.DroneServiceImpl.getDrone(DroneServiceImpl.java:91) ~[classes/:na]
+	at com.example.demo.ui.controller.DroneController.getDrone(DroneController.java:56) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.14.jar:5.3.14]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.14.jar:5.3.14]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.14.jar:5.3.14]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.14.jar:5.3.14]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.14.jar:5.3.14]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.14.jar:5.3.14]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067) ~[spring-webmvc-5.3.14.jar:5.3.14]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.14.jar:5.3.14]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.14.jar:5.3.14]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.3.14.jar:5.3.14]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655) ~[tomcat-embed-core-9.0.56.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.14.jar:5.3.14]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.56.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.14.jar:5.3.14]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.14.jar:5.3.14]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.14.jar:5.3.14]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.14.jar:5.3.14]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.14.jar:5.3.14]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.14.jar:5.3.14]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1732) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2022-01-29 13:08:52.094  INFO 8120 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone nFJbouE5ejyWcy00WnCx ,Battery Level 100 at Sat Jan 29 13:08:52 EET 2022
+2022-01-29 13:08:52.095  INFO 8120 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ktjkJuI9h6bPcAOf2oh4 ,Battery Level 80 at Sat Jan 29 13:08:52 EET 2022
+2022-01-29 13:08:52.096  INFO 8120 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ypf5pwl1HRn7RqkAgG21 ,Battery Level 30 at Sat Jan 29 13:08:52 EET 2022
+2022-01-29 13:09:52.097  INFO 8120 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone nFJbouE5ejyWcy00WnCx ,Battery Level 100 at Sat Jan 29 13:09:52 EET 2022
+2022-01-29 13:09:52.098  INFO 8120 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ktjkJuI9h6bPcAOf2oh4 ,Battery Level 80 at Sat Jan 29 13:09:52 EET 2022
+2022-01-29 13:09:52.099  INFO 8120 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ypf5pwl1HRn7RqkAgG21 ,Battery Level 30 at Sat Jan 29 13:09:52 EET 2022
+2022-01-29 13:10:52.099  INFO 8120 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone nFJbouE5ejyWcy00WnCx ,Battery Level 100 at Sat Jan 29 13:10:52 EET 2022
+2022-01-29 13:10:52.100  INFO 8120 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ktjkJuI9h6bPcAOf2oh4 ,Battery Level 80 at Sat Jan 29 13:10:52 EET 2022
+2022-01-29 13:10:52.100  INFO 8120 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ypf5pwl1HRn7RqkAgG21 ,Battery Level 30 at Sat Jan 29 13:10:52 EET 2022
+2022-01-29 13:11:29.608  INFO 8120 --- [RMI TCP Connection(11)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-01-29 13:11:29.637  INFO 8120 --- [RMI TCP Connection(11)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-01-29 13:11:29.639  INFO 8120 --- [RMI TCP Connection(11)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-01-29 13:11:29.651  INFO 8120 --- [RMI TCP Connection(11)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-01-29 13:11:40.014  INFO 4076 --- [main] c.example.demo.MobileAppAwsApplication   : Starting MobileAppAwsApplication using Java 17.0.1 on Raghda-PC with PID 4076 (D:\MusalaSoftTest\drones_app\target\classes started by Raghda in D:\MusalaSoftTest\drones_app)
+2022-01-29 13:11:40.019  INFO 4076 --- [main] c.example.demo.MobileAppAwsApplication   : No active profile set, falling back to default profiles: default
+2022-01-29 13:11:40.553  INFO 4076 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-01-29 13:11:40.615  INFO 4076 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 52 ms. Found 2 JPA repository interfaces.
+2022-01-29 13:11:41.404  INFO 4076 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-01-29 13:11:41.415  INFO 4076 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-01-29 13:11:41.416  INFO 4076 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-29 13:11:41.521  INFO 4076 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-01-29 13:11:41.522  INFO 4076 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1429 ms
+2022-01-29 13:11:41.739  INFO 4076 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-01-29 13:11:41.808  INFO 4076 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.3.Final
+2022-01-29 13:11:42.023  INFO 4076 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-01-29 13:11:42.152  INFO 4076 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-01-29 13:11:42.342  INFO 4076 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-01-29 13:11:42.382  INFO 4076 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2022-01-29 13:11:42.425  INFO 4076 --- [main] o.h.e.boot.internal.EnversServiceImpl    : Envers integration enabled? : true
+2022-01-29 13:11:43.957  INFO 4076 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-01-29 13:11:43.967  INFO 4076 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-01-29 13:11:44.469  WARN 4076 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-01-29 13:11:44.912  INFO 4076 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-01-29 13:11:44.925  INFO 4076 --- [main] c.example.demo.MobileAppAwsApplication   : Started MobileAppAwsApplication in 5.43 seconds (JVM running for 7.085)
+2022-01-29 13:11:45.099  INFO 4076 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone nFJbouE5ejyWcy00WnCx ,Battery Level 100 at Sat Jan 29 13:11:45 EET 2022
+2022-01-29 13:11:45.100  INFO 4076 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ktjkJuI9h6bPcAOf2oh4 ,Battery Level 80 at Sat Jan 29 13:11:45 EET 2022
+2022-01-29 13:11:45.100  INFO 4076 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ypf5pwl1HRn7RqkAgG21 ,Battery Level 30 at Sat Jan 29 13:11:45 EET 2022
+2022-01-29 13:11:56.616  INFO 4076 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-29 13:11:56.617  INFO 4076 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-01-29 13:11:56.618  INFO 4076 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-01-29 13:12:12.485 ERROR 4076 --- [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is com.fasterxml.jackson.databind.RuntimeJsonMappingException: there is not a drone with this serial] with root cause
+
+com.fasterxml.jackson.databind.RuntimeJsonMappingException: there is not a drone with this serial
+	at com.example.demo.service.impl.DroneServiceImpl.getDrone(DroneServiceImpl.java:92) ~[classes/:na]
+	at com.example.demo.ui.controller.DroneController.getDrone(DroneController.java:56) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.14.jar:5.3.14]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.14.jar:5.3.14]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.14.jar:5.3.14]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.14.jar:5.3.14]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.14.jar:5.3.14]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.14.jar:5.3.14]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067) ~[spring-webmvc-5.3.14.jar:5.3.14]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.14.jar:5.3.14]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.14.jar:5.3.14]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.3.14.jar:5.3.14]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655) ~[tomcat-embed-core-9.0.56.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.14.jar:5.3.14]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.56.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.14.jar:5.3.14]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.14.jar:5.3.14]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.14.jar:5.3.14]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.14.jar:5.3.14]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.14.jar:5.3.14]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.14.jar:5.3.14]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1732) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2022-01-29 13:12:44.931  INFO 4076 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone nFJbouE5ejyWcy00WnCx ,Battery Level 100 at Sat Jan 29 13:12:44 EET 2022
+2022-01-29 13:12:44.931  INFO 4076 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ktjkJuI9h6bPcAOf2oh4 ,Battery Level 80 at Sat Jan 29 13:12:44 EET 2022
+2022-01-29 13:12:44.931  INFO 4076 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ypf5pwl1HRn7RqkAgG21 ,Battery Level 30 at Sat Jan 29 13:12:44 EET 2022
+2022-01-29 13:13:44.938  INFO 4076 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone nFJbouE5ejyWcy00WnCx ,Battery Level 100 at Sat Jan 29 13:13:44 EET 2022
+2022-01-29 13:13:44.939  INFO 4076 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ktjkJuI9h6bPcAOf2oh4 ,Battery Level 80 at Sat Jan 29 13:13:44 EET 2022
+2022-01-29 13:13:44.939  INFO 4076 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ypf5pwl1HRn7RqkAgG21 ,Battery Level 30 at Sat Jan 29 13:13:44 EET 2022
+2022-01-29 13:14:44.937  INFO 4076 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone nFJbouE5ejyWcy00WnCx ,Battery Level 100 at Sat Jan 29 13:14:44 EET 2022
+2022-01-29 13:14:44.938  INFO 4076 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ktjkJuI9h6bPcAOf2oh4 ,Battery Level 80 at Sat Jan 29 13:14:44 EET 2022
+2022-01-29 13:14:44.939  INFO 4076 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ypf5pwl1HRn7RqkAgG21 ,Battery Level 30 at Sat Jan 29 13:14:44 EET 2022
+2022-01-29 13:15:44.943  INFO 4076 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone nFJbouE5ejyWcy00WnCx ,Battery Level 100 at Sat Jan 29 13:15:44 EET 2022
+2022-01-29 13:15:44.943  INFO 4076 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ktjkJuI9h6bPcAOf2oh4 ,Battery Level 80 at Sat Jan 29 13:15:44 EET 2022
+2022-01-29 13:15:44.944  INFO 4076 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ypf5pwl1HRn7RqkAgG21 ,Battery Level 30 at Sat Jan 29 13:15:44 EET 2022
+2022-01-29 13:16:44.951  INFO 4076 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone nFJbouE5ejyWcy00WnCx ,Battery Level 100 at Sat Jan 29 13:16:44 EET 2022
+2022-01-29 13:16:44.952  INFO 4076 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ktjkJuI9h6bPcAOf2oh4 ,Battery Level 80 at Sat Jan 29 13:16:44 EET 2022
+2022-01-29 13:16:44.952  INFO 4076 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ypf5pwl1HRn7RqkAgG21 ,Battery Level 30 at Sat Jan 29 13:16:44 EET 2022
+2022-01-29 13:17:44.944  INFO 4076 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone nFJbouE5ejyWcy00WnCx ,Battery Level 100 at Sat Jan 29 13:17:44 EET 2022
+2022-01-29 13:17:44.944  INFO 4076 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ktjkJuI9h6bPcAOf2oh4 ,Battery Level 80 at Sat Jan 29 13:17:44 EET 2022
+2022-01-29 13:17:44.945  INFO 4076 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ypf5pwl1HRn7RqkAgG21 ,Battery Level 30 at Sat Jan 29 13:17:44 EET 2022
+2022-01-29 13:18:44.946  INFO 4076 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone nFJbouE5ejyWcy00WnCx ,Battery Level 100 at Sat Jan 29 13:18:44 EET 2022
+2022-01-29 13:18:44.947  INFO 4076 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ktjkJuI9h6bPcAOf2oh4 ,Battery Level 80 at Sat Jan 29 13:18:44 EET 2022
+2022-01-29 13:18:44.947  INFO 4076 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ypf5pwl1HRn7RqkAgG21 ,Battery Level 30 at Sat Jan 29 13:18:44 EET 2022
+2022-01-29 13:19:44.949  INFO 4076 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone nFJbouE5ejyWcy00WnCx ,Battery Level 100 at Sat Jan 29 13:19:44 EET 2022
+2022-01-29 13:19:44.950  INFO 4076 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ktjkJuI9h6bPcAOf2oh4 ,Battery Level 80 at Sat Jan 29 13:19:44 EET 2022
+2022-01-29 13:19:44.950  INFO 4076 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ypf5pwl1HRn7RqkAgG21 ,Battery Level 30 at Sat Jan 29 13:19:44 EET 2022
+2022-01-29 13:20:44.951  INFO 4076 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone nFJbouE5ejyWcy00WnCx ,Battery Level 100 at Sat Jan 29 13:20:44 EET 2022
+2022-01-29 13:20:44.951  INFO 4076 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ktjkJuI9h6bPcAOf2oh4 ,Battery Level 80 at Sat Jan 29 13:20:44 EET 2022
+2022-01-29 13:20:44.952  INFO 4076 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ypf5pwl1HRn7RqkAgG21 ,Battery Level 30 at Sat Jan 29 13:20:44 EET 2022
+2022-01-29 13:21:44.952  INFO 4076 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone nFJbouE5ejyWcy00WnCx ,Battery Level 100 at Sat Jan 29 13:21:44 EET 2022
+2022-01-29 13:21:44.952  INFO 4076 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ktjkJuI9h6bPcAOf2oh4 ,Battery Level 80 at Sat Jan 29 13:21:44 EET 2022
+2022-01-29 13:21:44.953  INFO 4076 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ypf5pwl1HRn7RqkAgG21 ,Battery Level 30 at Sat Jan 29 13:21:44 EET 2022
+2022-01-29 13:22:44.954  INFO 4076 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone nFJbouE5ejyWcy00WnCx ,Battery Level 100 at Sat Jan 29 13:22:44 EET 2022
+2022-01-29 13:22:44.954  INFO 4076 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ktjkJuI9h6bPcAOf2oh4 ,Battery Level 80 at Sat Jan 29 13:22:44 EET 2022
+2022-01-29 13:22:44.955  INFO 4076 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ypf5pwl1HRn7RqkAgG21 ,Battery Level 30 at Sat Jan 29 13:22:44 EET 2022
+2022-01-29 13:23:44.956  INFO 4076 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone nFJbouE5ejyWcy00WnCx ,Battery Level 100 at Sat Jan 29 13:23:44 EET 2022
+2022-01-29 13:23:44.956  INFO 4076 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ktjkJuI9h6bPcAOf2oh4 ,Battery Level 80 at Sat Jan 29 13:23:44 EET 2022
+2022-01-29 13:23:44.957  INFO 4076 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ypf5pwl1HRn7RqkAgG21 ,Battery Level 30 at Sat Jan 29 13:23:44 EET 2022
+2022-01-29 13:24:35.820  INFO 4076 --- [RMI TCP Connection(21)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-01-29 13:24:35.881  INFO 4076 --- [RMI TCP Connection(21)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-01-29 13:24:35.884  INFO 4076 --- [RMI TCP Connection(21)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-01-29 13:24:35.936  INFO 4076 --- [RMI TCP Connection(21)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-01-29 13:24:45.191  INFO 8872 --- [main] c.example.demo.MobileAppAwsApplication   : Starting MobileAppAwsApplication using Java 17.0.1 on Raghda-PC with PID 8872 (D:\MusalaSoftTest\drones_app\target\classes started by Raghda in D:\MusalaSoftTest\drones_app)
+2022-01-29 13:24:45.194  INFO 8872 --- [main] c.example.demo.MobileAppAwsApplication   : No active profile set, falling back to default profiles: default
+2022-01-29 13:24:45.683  INFO 8872 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-01-29 13:24:45.738  INFO 8872 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 46 ms. Found 2 JPA repository interfaces.
+2022-01-29 13:24:46.434  INFO 8872 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-01-29 13:24:46.443  INFO 8872 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-01-29 13:24:46.444  INFO 8872 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-01-29 13:24:46.556  INFO 8872 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-01-29 13:24:46.556  INFO 8872 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1297 ms
+2022-01-29 13:24:46.749  INFO 8872 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-01-29 13:24:46.809  INFO 8872 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.3.Final
+2022-01-29 13:24:46.982  INFO 8872 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-01-29 13:24:47.086  INFO 8872 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-01-29 13:24:47.276  INFO 8872 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-01-29 13:24:47.306  INFO 8872 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2022-01-29 13:24:47.346  INFO 8872 --- [main] o.h.e.boot.internal.EnversServiceImpl    : Envers integration enabled? : true
+2022-01-29 13:24:48.729  INFO 8872 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-01-29 13:24:48.738  INFO 8872 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-01-29 13:24:49.132  WARN 8872 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-01-29 13:24:49.523  INFO 8872 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-01-29 13:24:49.535  INFO 8872 --- [main] c.example.demo.MobileAppAwsApplication   : Started MobileAppAwsApplication in 4.769 seconds (JVM running for 5.548)
+2022-01-29 13:24:49.772  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone nFJbouE5ejyWcy00WnCx ,Battery Level 100 at Sat Jan 29 13:24:49 EET 2022
+2022-01-29 13:24:49.772  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ktjkJuI9h6bPcAOf2oh4 ,Battery Level 80 at Sat Jan 29 13:24:49 EET 2022
+2022-01-29 13:24:49.772  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ypf5pwl1HRn7RqkAgG21 ,Battery Level 30 at Sat Jan 29 13:24:49 EET 2022
+2022-01-29 13:24:57.559  INFO 8872 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-01-29 13:24:57.559  INFO 8872 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-01-29 13:24:57.560  INFO 8872 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-01-29 13:24:57.712 ERROR 8872 --- [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is com.fasterxml.jackson.databind.RuntimeJsonMappingException: there is not a drone with this serial] with root cause
+
+com.fasterxml.jackson.databind.RuntimeJsonMappingException: there is not a drone with this serial
+	at com.example.demo.service.impl.DroneServiceImpl.getDrone(DroneServiceImpl.java:92) ~[classes/:na]
+	at com.example.demo.ui.controller.DroneController.getDrone(DroneController.java:56) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205) ~[spring-web-5.3.14.jar:5.3.14]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150) ~[spring-web-5.3.14.jar:5.3.14]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117) ~[spring-webmvc-5.3.14.jar:5.3.14]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895) ~[spring-webmvc-5.3.14.jar:5.3.14]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.14.jar:5.3.14]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.14.jar:5.3.14]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1067) ~[spring-webmvc-5.3.14.jar:5.3.14]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.14.jar:5.3.14]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.14.jar:5.3.14]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.3.14.jar:5.3.14]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655) ~[tomcat-embed-core-9.0.56.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.14.jar:5.3.14]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.56.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.14.jar:5.3.14]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.14.jar:5.3.14]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.14.jar:5.3.14]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.14.jar:5.3.14]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.14.jar:5.3.14]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117) ~[spring-web-5.3.14.jar:5.3.14]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1732) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.56.jar:9.0.56]
+	at java.base/java.lang.Thread.run(Thread.java:833) ~[na:na]
+
+2022-01-29 13:25:49.546  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone nFJbouE5ejyWcy00WnCx ,Battery Level 100 at Sat Jan 29 13:25:49 EET 2022
+2022-01-29 13:25:49.547  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ktjkJuI9h6bPcAOf2oh4 ,Battery Level 80 at Sat Jan 29 13:25:49 EET 2022
+2022-01-29 13:25:49.547  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ypf5pwl1HRn7RqkAgG21 ,Battery Level 30 at Sat Jan 29 13:25:49 EET 2022
+2022-01-29 13:26:49.548  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone nFJbouE5ejyWcy00WnCx ,Battery Level 100 at Sat Jan 29 13:26:49 EET 2022
+2022-01-29 13:26:49.549  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ktjkJuI9h6bPcAOf2oh4 ,Battery Level 80 at Sat Jan 29 13:26:49 EET 2022
+2022-01-29 13:26:49.549  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ypf5pwl1HRn7RqkAgG21 ,Battery Level 30 at Sat Jan 29 13:26:49 EET 2022
+2022-01-29 13:27:49.549  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone nFJbouE5ejyWcy00WnCx ,Battery Level 100 at Sat Jan 29 13:27:49 EET 2022
+2022-01-29 13:27:49.550  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ktjkJuI9h6bPcAOf2oh4 ,Battery Level 80 at Sat Jan 29 13:27:49 EET 2022
+2022-01-29 13:27:49.550  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ypf5pwl1HRn7RqkAgG21 ,Battery Level 30 at Sat Jan 29 13:27:49 EET 2022
+2022-01-29 13:28:49.552  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone nFJbouE5ejyWcy00WnCx ,Battery Level 100 at Sat Jan 29 13:28:49 EET 2022
+2022-01-29 13:28:49.553  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ktjkJuI9h6bPcAOf2oh4 ,Battery Level 80 at Sat Jan 29 13:28:49 EET 2022
+2022-01-29 13:28:49.553  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ypf5pwl1HRn7RqkAgG21 ,Battery Level 30 at Sat Jan 29 13:28:49 EET 2022
+2022-01-29 13:29:49.559  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone nFJbouE5ejyWcy00WnCx ,Battery Level 100 at Sat Jan 29 13:29:49 EET 2022
+2022-01-29 13:29:49.560  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ktjkJuI9h6bPcAOf2oh4 ,Battery Level 80 at Sat Jan 29 13:29:49 EET 2022
+2022-01-29 13:29:49.560  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ypf5pwl1HRn7RqkAgG21 ,Battery Level 30 at Sat Jan 29 13:29:49 EET 2022
+2022-01-29 13:30:49.555  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone nFJbouE5ejyWcy00WnCx ,Battery Level 100 at Sat Jan 29 13:30:49 EET 2022
+2022-01-29 13:30:49.555  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ktjkJuI9h6bPcAOf2oh4 ,Battery Level 80 at Sat Jan 29 13:30:49 EET 2022
+2022-01-29 13:30:49.556  INFO 8872 --- [scheduling-1] c.e.demo.ui.controller.DroneController   : Drone ypf5pwl1HRn7RqkAgG21 ,Battery Level 30 at Sat Jan 29 13:30:49 EET 2022
