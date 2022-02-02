@@ -16,7 +16,7 @@
 
 - for inserting data please follow the Rest API defined above 
 - you will find a folder "images" consists of two images for medications image upload
-
+- this file Dump20220201.sql is for data insertion, it contains also creation but you do not need because "the schema and db will created automatically while running app"
 
 
 
